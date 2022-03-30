@@ -1,0 +1,24 @@
+body{
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(95, 95, 95);
+    color: white;
+    font-size: 20px;
+}
+a{
+    color: aqua;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 0.5s;
+}
+a:hover{
+    color: chartreuse;
+    font-size: 30px;
+    text-decoration: none;
+}
+ol{
+    list-style: none;
+}
+li{
+    list-style: none;
+}
