@@ -1,21 +1,21 @@
 body {
     padding: 10px;
     margin: 20px;
-    background-color: rgb(71, 70, 70);
+    background-color: rgb(0, 0, 0);
     color: white;
     font-size: 20px;
 }
 
 a {
-    color: aqua;
-    font-size: 25px;
+    color: rgb(6, 231, 231);
+    text-decoration-color: rgba(128, 255, 0, 0.518);
     font-family: 'Times New Roman', Times, serif;
     transition: 0.5s;
 }
 
 a:hover {
     color: chartreuse;
-    font-size: 30px;
+    font-size: 45px;
     text-decoration: none;
 }
 
@@ -24,16 +24,12 @@ ol {
 }
 
 li {
-    list-style: circle;
     color: aqua;
     text-shadow: 0 0 1px aqua;
-    font-size: 20px;
-    transition: 0.7s;
-}
-
-li:hover {
-    color: chartreuse;
     font-size: 35px;
+    transition: 2s;
+    list-style: decimal;
+
 }
 
 .contenedor {
@@ -47,10 +43,23 @@ li:hover {
 h1,
 h2 {
     text-align: center;
+    text-decoration-line: underline;
     text-shadow: 2px 4px 10px black;
 }
 
 hr {
     width: 100%;
     box-shadow: 0 2px 10px black;
+}
+
+@keyframes animate_text {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
 }
