@@ -1,0 +1,76 @@
+html {
+    background-color: #222;
+    color: #ee6;
+}
+
+h1 {
+    margin-left: 45%;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+p:first-of-type {
+    color: #efe;
+}
+
+h1,
+h2,
+h3 {
+    color: #eee;
+    text-transform: uppercase;
+}
+
+strong {
+    border-bottom: solid 1px white;
+}
+
+.the-force {
+    background-color: #444;
+}
+
+.light-side {
+    color: #66f;
+}
+
+.dark-side {
+    color: #f33;
+}
+
+/* lo puse para que quede lindo */
+.movies-list {
+    margin: 10px;
+    width: 25%;
+    height: auto;
+}
+
+#og-trilogy {
+    list-style-type: circle;
+    background-color: #111;
+}
+
+/* segundolistado */
+.movies-list {
+    padding-left: 40px;
+    background-color: #333;
+}
+
+/* tercer listado*/
+.movies-list:last-of-type {
+    margin-top: 10px;
+    background-color: #111;
+}
+
+h1:hover {
+    height: auto;
+    color: aqua;
+}
+
+a {
+    font-style: italic;
+}
+
+a:visited {
+    color: gray;
+}
