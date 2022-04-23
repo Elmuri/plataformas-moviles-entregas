@@ -1,0 +1,72 @@
+@media (max-width: 400px) {
+    p {
+        font-size: 1.3em;
+    }
+}
+
+@media (min-width: 300px) {
+    h1 {
+        text-align: center;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 400px) {
+    .conteiner {
+        width: 80%;
+    }
+}
+
+@media (max-width: 200px) {
+    .conteiner {
+        width: 90%;
+    }
+}
+
+@media (max-width: 400px) {
+    .conteiner {
+        width: 390px;
+    }
+}
+
+@media print {
+    body {
+        background-color: white;
+    }
+}
+
+@media screen {
+    body {
+        background-color: #ddccaa;
+    }
+}
+
+@media not (color) {
+    #wikipedia-logo {
+        display: none;
+    }
+}
+
+/*()=version de compativilidad
+
+Navegadores compatibles PC: Chrome(38),Edge(12),Firefox(64),Opera(28),Safari(9) 
+
+Navegadores compatibles Android: WebView Android(38),Chrome Android(50),Firefox for Android(64),Opera Android(28),Safari on iOS(9),Samsung Internet(5.0) 
+
+No Funciona en : Internet Explorer*/
+
+@media (hover) {
+    blockquote {
+        background-color: #ccddaa;
+    }
+
+}
+
+@media (aspect-ratio: 1/1) {
+    figure {
+        width: 80%;
+        margin: 5px auto;
+        padding: 5px;
+        border: 1px solid #999;
+        border-radius: 10px;
+    }
+}
