@@ -28,6 +28,12 @@
     }
 }
 
+@media screen {
+    .container{
+        text-align: center;
+    }
+}
+
 @media print {
     body {
         background-color: white;
