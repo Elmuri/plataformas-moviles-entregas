@@ -1,0 +1,73 @@
+body {
+    background-image: url('/media/661561.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.row {
+    /* gass efect */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    /* Center content */
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    width: 40vh;
+    border-radius: 20px;
+    height: auto;
+}
+
+.img-container {
+    background-image: url("/media/blob.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#spinner {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.card-body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+.btn-primary{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hp{ color: fuchsia;}
+.attack{ color: red;}
+.defense{ color: rgb(26, 127, 243);}
+.special-attack{ color: yellow;}
+.special-defense{ color: rgb(5, 255, 17);}
+.speed{ color: aqua;}
+
+.card{
+    margin: 15px;
+    background-color: black;
+}
+
+.info-container {
+    background-color: #fdfdfd;
+    border: none;
+    border-radius: 40px;
+    color: rgb(0, 0, 0);
+    padding: 5px 4px;
+    margin: 5px 4px;
+    font-size: 1.2em;
+    box-shadow: 0px 0px 10px 0px #4caf50;
+
+}
